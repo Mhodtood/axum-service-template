@@ -1,0 +1,9 @@
+site_name: "${{ values.name }} documents"
+
+nav:
+  - Overview: index.md
+  - Concepts:
+      - "Architecture": architecture.md
+
+plugins:
+  - techdocs-core
