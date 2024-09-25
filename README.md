@@ -1,2 +1,3 @@
-# axum-service-template
-Service template based on Axum
+# ${{ values.name }}
+
+Service: ${{ values.name }} is created based on Axum

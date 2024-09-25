@@ -4,5 +4,5 @@ COPY . .
 RUN cargo build --release
 
 FROM gcr.io/distroless/base-debian12
-COPY --from=build /app/target/release/axum-app /server
+COPY --from=build /app/target/release/${{ values.name }} /server
 CMD ["/server"]
